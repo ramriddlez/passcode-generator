@@ -11,7 +11,7 @@ function writePassword() {
 }
 
 function generatePassword() {
-  let passwordLength = prompt("please enter your password length between 8-128 characters");
+  let passwordLength = prompt("please enter a NUMBER between 8-128");
   if(8 <= passwordLength && 128 >= passwordLength) {
     let password_Object = passwordCriteria();
     let long_Password = password_Object[0];
